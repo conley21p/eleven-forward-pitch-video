@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "frames": [
+    {
+      "frame": 0,
+      "mean_absolute_rgb_error": 0.03361963091563786,
+      "99_percentile": 2.0
+    },
+    {
+      "frame": 12,
+      "mean_absolute_rgb_error": 1.7122270447530865,
+      "99_percentile": 3.0
+    },
+    {
+      "frame": 23,
+      "mean_absolute_rgb_error": 1.7365629822530864,
+      "99_percentile": 3.0
+    },
+    {
+      "frame": 1500,
+      "mean_absolute_rgb_error": 1.8292303240740742,
+      "99_percentile": 3.0
+    },
+    {
+      "frame": 3599,
+      "mean_absolute_rgb_error": 1.814733153292181,
+      "99_percentile": 3.0
+    }
+  ],
+  "resources_verified": 47,
+  "final_master_frames": 3600,
+  "editable_source_project": "Source_ElevenForward_Kinetic.kdenlive",
+  "method": "Native delivery master compared against ProRes archive; original layered source edit remains independent"
+}

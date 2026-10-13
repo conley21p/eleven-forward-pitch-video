@@ -1,0 +1,96 @@
+[
+  {
+    "path": "03_founder/Founder_Gradient_30fps.mkv",
+    "bytes": 6294830301,
+    "sha256": "562a51fa31a1a26f0d931d74c3cc1b17adf53ad9a4c4f9cbfdd60ba125478163",
+    "parts": [
+      {
+        "path": "media_parts/Founder_Gradient_30fps/000.bin",
+        "bytes": 1073741824,
+        "sha256": "06afeeb6adfd88b1ebc327871b5dbf41bee7e8ed7d4b12f2f3f64cee1dcf4b38"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/001.bin",
+        "bytes": 1073741824,
+        "sha256": "7e5eae9530a9ab1b936a3e5aad20c82f0dd23d528d3862f97fc2288a1dc2d7de"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/002.bin",
+        "bytes": 1073741824,
+        "sha256": "02ac6d27a0851a4239fe59e59d1922356c15c13e7667b12c395406994332befb"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/003.bin",
+        "bytes": 1073741824,
+        "sha256": "5a587406387606e5cd9204fc3a0cf9777b935534cb91866186de692d4176d911"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/004.bin",
+        "bytes": 1073741824,
+        "sha256": "8f494407b776b977dcffd3bf3636c17e1f6f8ba539906c7b68d1d542f6bdacf2"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_00.bin",
+        "bytes": 134217728,
+        "sha256": "f6c6cd0c445a82996be7d14275cc3ddf5f8d8043fe187de4a1020ad185e99669"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_01.bin",
+        "bytes": 134217728,
+        "sha256": "c612c7a2f5e0f57798130ff26c992ab1292d3ed1eade98c2a4b4c2b957251732"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_02.bin",
+        "bytes": 134217728,
+        "sha256": "c0b2a2d95ca19f5941c5cfaf6b55c18807e398cf25c9e02cb7358e3629cef70f"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_03.bin",
+        "bytes": 134217728,
+        "sha256": "b132842514346ab5c7e83a596c03ee882ee3a36de42943d4a3cf25fdc1ccc146"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_04.bin",
+        "bytes": 134217728,
+        "sha256": "3a15e2486bfe6a9dfb7728ae7f10dd6b77ae30e102dec607e937ca8486995f0f"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_05.bin",
+        "bytes": 134217728,
+        "sha256": "b6cc2be963e8a1e5c8941399907182e453884a9535a770d0cbac632a14e62bbf"
+      },
+      {
+        "path": "media_parts/Founder_Gradient_30fps/005_06.bin",
+        "bytes": 120814813,
+        "sha256": "49ecb8ab8f5b8976ce8fa54422e1a937a55f33bcadfde76a9e62abbc23bfaad5"
+      }
+    ]
+  },
+  {
+    "path": "08_exports/ElevenForward_Kinetic_Archive.mov",
+    "bytes": 3285189215,
+    "sha256": "d6ccb2037ff59c44722830d53a6ff0002b069da26201bf4e88a014ac8274fcf2",
+    "parts": [
+      {
+        "path": "media_parts/ElevenForward_Kinetic_Archive/000.bin",
+        "bytes": 1073741824,
+        "sha256": "0977154c68a73e7c4aad8ecf80e75d94fd8dfa888518f3f8728c9b311a82507a"
+      },
+      {
+        "path": "media_parts/ElevenForward_Kinetic_Archive/001.bin",
+        "bytes": 1073741824,
+        "sha256": "67cf2a634534e0a63f9d8b113e9bf313981f0521d725935b7c32fe55944f5cc0"
+      },
+      {
+        "path": "media_parts/ElevenForward_Kinetic_Archive/002.bin",
+        "bytes": 1073741824,
+        "sha256": "7606e99e9276585d2badb21fc308e1a775649b2cc0e303f0a24ed621eea669d9"
+      },
+      {
+        "path": "media_parts/ElevenForward_Kinetic_Archive/003.bin",
+        "bytes": 63963743,
+        "sha256": "d7c8d4e2d0b1b38016c23cb01bb524a64c095682f44ac1dff8c78744b8b34194"
+      }
+    ]
+  }
+]

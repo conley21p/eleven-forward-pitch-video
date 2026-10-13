@@ -1,0 +1,1152 @@
+{
+  "sha256": "be2dffaa1f43c3ae8bd6279c51136e9d894da6200c117ba800a25e5d92526e19",
+  "inputs": {
+    "settings": {
+      "source": "03_founder/Original_Camera_Take.mov",
+      "source_resolution": [
+        3840,
+        2160
+      ],
+      "source_fps": 24,
+      "output_frames": 3851,
+      "fps": 30,
+      "crop_size": [
+        2129.92,
+        1198.08
+      ],
+      "crop_y": 382,
+      "opening_x": 858.04,
+      "main_x": 1381.52,
+      "opening_move_frames": [
+        83,
+        107
+      ],
+      "closing_move_frames": [
+        3216,
+        3240
+      ],
+      "tracking": false,
+      "interpolation": "None; nearest timestamp source-frame mapping",
+      "person_matting": false,
+      "portrait_blur": false,
+      "spatial_blur": {
+        "start_x": 880,
+        "full_x": 1160,
+        "sigma": 4,
+        "curve": "smoothstep",
+        "strength_fades_with_horizontal_composition": true
+      },
+      "active_founder": "03_founder/Founder_Gradient_30fps.mkv",
+      "intermediate": "Lossless FFV1 RGB",
+      "source_hashes": {
+        "camera": "e6d38ef034a66ebe2863cdec57321f4c9ca9a3628ff4755e8a67c8669f5b173e",
+        "framed_take": "8758737964b03852525aa3790ed4afa9ae8445b0a3dc72c5b974f62c00931ede",
+        "dialogue": "d28f99f0ae99124cd91ca0807623c4ee234614487df2e9dd26d291de4d0e8e32"
+      },
+      "additional_crop_width_percent": 4.0,
+      "speaker_size_change_from_last_render_percent": -3.8461538461538547,
+      "resampling": "Single Lanczos4 affine sample directly from original 4K pixels"
+    },
+    "source_assets": [
+      {
+        "asset": "00_references/final_powerpoint/Anatomy_Cutout.png",
+        "sha256": "91be29cf23285b0980b58391285ff7ea44806b6adb99021f0755b165695d3c4d",
+        "bytes": 1200491
+      },
+      {
+        "asset": "00_references/final_powerpoint/Belt_Trace_Source.png",
+        "sha256": "54c44c0dced944fda242d708bf07e2d8b7c2350b1c90f76dec7e4d392f4ee672",
+        "bytes": 2146348
+      },
+      {
+        "asset": "00_references/final_powerpoint/Community_Dark_Original_Motion.mkv",
+        "sha256": "139c60b7e8ba78d8a4842bed9f17fb47558d63f376f83e971d3b100cc84903bb",
+        "bytes": 23753462
+      },
+      {
+        "asset": "00_references/final_powerpoint/image2.png",
+        "sha256": "146a23e36bb6197d3c740784a496c46e6c5739d49d39d426f14ea33146b62570",
+        "bytes": 2501481
+      },
+      {
+        "asset": "00_references/final_powerpoint/image3.png",
+        "sha256": "0d9dc4d753cbe401e8bf76662814f56d0d2f416186a33604dee62480e0b77596",
+        "bytes": 2549821
+      },
+      {
+        "asset": "00_references/final_powerpoint/image7.png",
+        "sha256": "cc72133c26828dc7abe3b9a3331611b5e919b5b333efdadae03327d60b2141a0",
+        "bytes": 2040769
+      },
+      {
+        "asset": "00_references/final_powerpoint/image8.png",
+        "sha256": "a6399f2738b2ce5a7d6a70e610078ebb8a10bb72aeb7e53833c095dc6fb8d375",
+        "bytes": 2000169
+      },
+      {
+        "asset": "00_references/final_powerpoint/media2.mp4",
+        "sha256": "7bdbeb54bd57f468fc9dc1fd488f4de7cca4aede35c1fd8c67c6f8430232232b",
+        "bytes": 214207
+      },
+      {
+        "asset": "00_references/powerpoint/race_finish.png",
+        "sha256": "fc2eeca286a0d44d331ea491f631ac503992fe7abe801ecb55cc1919860ea751",
+        "bytes": 3601791
+      },
+      {
+        "asset": "00_references/powerpoint/race_swim.png",
+        "sha256": "b4cea3c29e9c6d798167728e1319a599bf99a059eb48c57e09f63c95e39fef60",
+        "bytes": 1636350
+      },
+      {
+        "asset": "03_founder/Original_Camera_Take.mov",
+        "sha256": "d53fdf156787774fc1086dcfe3680a78f74239c6b4e05722955da8caed6680d9",
+        "bytes": 426106810
+      },
+      {
+        "asset": "04_audio/Founder_Dialogue.wav",
+        "sha256": "d28f99f0ae99124cd91ca0807623c4ee234614487df2e9dd26d291de4d0e8e32",
+        "bytes": 18484902
+      },
+      {
+        "asset": "05_graphics/01_wordmark.png",
+        "sha256": "7eebf26a0ade2c93ce71121031277c177e46299b7a78fbc5f044fd93b72fe108",
+        "bytes": 35727
+      },
+      {
+        "asset": "05_graphics/01_wordmark.svg",
+        "sha256": "b9830b5583c88b6f4fa7b0d21f5ff934f45b961e2865e04407055694d08035c5",
+        "bytes": 239634
+      },
+      {
+        "asset": "05_graphics/png/anatomy_illustration.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/anatomy_title.png",
+        "sha256": "b7a6e9dd725805237f2136cdde2f8e046942904710c9007cfdf741a8babb676f",
+        "bytes": 11099
+      },
+      {
+        "asset": "05_graphics/png/audience.png",
+        "sha256": "fe87391553d849c7200cd8c1ed987d32cca99a3143001664556b4d277e974fca",
+        "bytes": 25594
+      },
+      {
+        "asset": "05_graphics/png/cogs.png",
+        "sha256": "1ae9d0a34e782fb30e03e4b4860cba2cff205320965b5d2601c214322cd6943c",
+        "bytes": 15392
+      },
+      {
+        "asset": "05_graphics/png/community_animation.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/economics_title.png",
+        "sha256": "0479fe675eb55f74fda182866f8f55227b79003cf20e2baa1d4006adea6624d7",
+        "bytes": 9672
+      },
+      {
+        "asset": "05_graphics/png/funding_studio.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/giving_people.png",
+        "sha256": "6d4357b4f9456ae6e954432749e0a8b8b4ec5885bf66f5f89919cfdb117cd951",
+        "bytes": 11775
+      },
+      {
+        "asset": "05_graphics/png/giving_purchase.png",
+        "sha256": "8fe986996138097c94c9f5c355a38ce0affe2b94b768fe999a204315c0fa4297",
+        "bytes": 11797
+      },
+      {
+        "asset": "05_graphics/png/giving_supplies.png",
+        "sha256": "26b67b635c89bea8c7ba423de9c853c1e7a72926c07f9bbc156ed61b7c2a61a4",
+        "bytes": 11171
+      },
+      {
+        "asset": "05_graphics/png/giving_title.png",
+        "sha256": "74b7cee51e1d4dea14891d8a685b43fdf95af8af623ba210df8e56c9f0d4255e",
+        "bytes": 8978
+      },
+      {
+        "asset": "05_graphics/png/market_inputs.png",
+        "sha256": "e22a0b1d72030337fe843a571b97c17251cb0dc37437c51b4a5ba1a0186f9f92",
+        "bytes": 19290
+      },
+      {
+        "asset": "05_graphics/png/market_result.png",
+        "sha256": "9cfb747384b3b68eb3cc2d8ed1a4193909b8304a2b95fbbd19220279b55cc688",
+        "bytes": 33498
+      },
+      {
+        "asset": "05_graphics/png/material_shape_design.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/nine_months.png",
+        "sha256": "20882c72ea1afcc1d8c90fc9b0d57c32a19504deef587c9e5245c46ada63d524",
+        "bytes": 8324
+      },
+      {
+        "asset": "05_graphics/png/population.png",
+        "sha256": "548f62ba836b02328d35a04811346623e6df67744730985299cda82dccb417ab",
+        "bytes": 19802
+      },
+      {
+        "asset": "05_graphics/png/product_exterior.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/product_interior.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/product_title.png",
+        "sha256": "df419eaa06e27548aa0570932f6367fd274a5497cebe42dd44d0bb18ba5806e5",
+        "bytes": 13864
+      },
+      {
+        "asset": "05_graphics/png/race_finish.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/race_swim.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/retail.png",
+        "sha256": "0c5e42bf4fe84c0dd074113d7a3b8395d8036faba2a2d57b3ba4db25f8d215c8",
+        "bytes": 11120
+      },
+      {
+        "asset": "05_graphics/png/stealth_comparison.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/png/stealth_website.png",
+        "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+        "bytes": 3875
+      },
+      {
+        "asset": "05_graphics/svg/anatomy_illustration.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/anatomy_title.svg",
+        "sha256": "c05592ac3b1603063593f0709655a30b84363e64a0240b0a63ad548ae44de631",
+        "bytes": 209
+      },
+      {
+        "asset": "05_graphics/svg/audience.svg",
+        "sha256": "8f98d294a96d36d2cf92db0a9e3fd8a55e56597ce04e497f0bce9dca5be3e2fc",
+        "bytes": 613
+      },
+      {
+        "asset": "05_graphics/svg/cogs.svg",
+        "sha256": "d2c6b7d46f1b68fc3098f0c5dfd8c588129d906261d3f95581479ab59893baf4",
+        "bytes": 455
+      },
+      {
+        "asset": "05_graphics/svg/community_animation.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/economics_title.svg",
+        "sha256": "11385af520abd96231110b87d10e82d63f1fda59aac8d4d0422c896f9c3b207c",
+        "bytes": 205
+      },
+      {
+        "asset": "05_graphics/svg/funding_studio.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/giving_people.svg",
+        "sha256": "f42d209964c27756a5516b5bbbc6163fea9eef921c652ca6c6d9664ecc451316",
+        "bytes": 223
+      },
+      {
+        "asset": "05_graphics/svg/giving_purchase.svg",
+        "sha256": "519273e09ce003d433ab9ffcdd6dc99a104038d22481568505efe0d9012333a1",
+        "bytes": 211
+      },
+      {
+        "asset": "05_graphics/svg/giving_supplies.svg",
+        "sha256": "1e0b295f2ac9a3126c130b4e2638530b305ed3a48a0e93a6f11e2e9da23338b4",
+        "bytes": 213
+      },
+      {
+        "asset": "05_graphics/svg/giving_title.svg",
+        "sha256": "e70a435219d1719b5d4322a684e17125c18a34c8418861ec646c7c5f26f98f03",
+        "bytes": 268
+      },
+      {
+        "asset": "05_graphics/svg/market_inputs.svg",
+        "sha256": "b0f9d70aed441fba66fe4c8752412e5cb545e591417e4b7583e36f3a9a778f7a",
+        "bytes": 594
+      },
+      {
+        "asset": "05_graphics/svg/market_result.svg",
+        "sha256": "40d28f2d5f9d5e679d75345a764f3718f339b594994dfc05d20f9418ab9b8346",
+        "bytes": 729
+      },
+      {
+        "asset": "05_graphics/svg/material_shape_design.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/nine_months.svg",
+        "sha256": "2c29d70474ef9b7f8fe2acefba832a49d288e2b162d75f7dd598e6d538875404",
+        "bytes": 202
+      },
+      {
+        "asset": "05_graphics/svg/population.svg",
+        "sha256": "1817e1548688f64c12963a4ee54025776264b7d8f26908588be84644ff1da0e9",
+        "bytes": 475
+      },
+      {
+        "asset": "05_graphics/svg/product_exterior.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/product_interior.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/product_title.svg",
+        "sha256": "16c8c6085a3b2493ac806d1c0c609c8af3a7e5d72228d281ea6365e8be327897",
+        "bytes": 454
+      },
+      {
+        "asset": "05_graphics/svg/race_finish.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/race_swim.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/retail.svg",
+        "sha256": "d84164e346d07478986a585c7101ae1a6f4c1ce718d22e6c5531efc00c79f048",
+        "bytes": 323
+      },
+      {
+        "asset": "05_graphics/svg/stealth_comparison.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      },
+      {
+        "asset": "05_graphics/svg/stealth_website.svg",
+        "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+        "bytes": 72
+      }
+    ],
+    "config": {
+      "name": "Eleven Forward \u00b7 Final Graphics Redesign",
+      "fps": 30,
+      "frames": 3851,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "panel": [
+        816,
+        72,
+        1040,
+        936
+      ],
+      "planning_lane": [
+        816,
+        72,
+        1040,
+        936
+      ],
+      "theme": {
+        "surface": "#0F1712",
+        "black": "#000000",
+        "accent": "#D3F928",
+        "text": "#F7F8F5",
+        "secondary": "#A6B4A1",
+        "row": "#193728"
+      },
+      "founder_asset": "03_founder/Founder_Gradient_30fps.mkv",
+      "cinematic_settings": "01_script/Cinematic_Settings.json",
+      "scenes": [
+        {
+          "id": "Anatomy",
+          "start": 120,
+          "end": 195
+        },
+        {
+          "id": "Race",
+          "start": 195,
+          "end": 444
+        },
+        {
+          "id": "Product",
+          "start": 444,
+          "end": 874
+        },
+        {
+          "id": "Details",
+          "start": 960,
+          "end": 1305
+        },
+        {
+          "id": "Community",
+          "start": 1335,
+          "end": 1455
+        },
+        {
+          "id": "Market",
+          "start": 1455,
+          "end": 1770
+        },
+        {
+          "id": "Comparison",
+          "start": 2040,
+          "end": 2340
+        },
+        {
+          "id": "StealthWebsite",
+          "start": 2370,
+          "end": 2490
+        },
+        {
+          "id": "Economics",
+          "start": 2517,
+          "end": 2736
+        },
+        {
+          "id": "Giving",
+          "start": 2736,
+          "end": 2975
+        },
+        {
+          "id": "Funding",
+          "start": 2975,
+          "end": 3240
+        }
+      ],
+      "elements": [
+        {
+          "id": "anatomy_title",
+          "channel": "Typography",
+          "start": 120,
+          "end": 195,
+          "svg": "05_graphics/svg/anatomy_title.svg",
+          "png": "05_graphics/png/anatomy_title.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "anatomy_title"
+        },
+        {
+          "id": "anatomy_illustration",
+          "channel": "Images",
+          "start": 120,
+          "end": 195,
+          "svg": "05_graphics/svg/anatomy_illustration.svg",
+          "png": "05_graphics/png/anatomy_illustration.png",
+          "image": "00_references/final_powerpoint/Anatomy_Cutout.png",
+          "box": [
+            240,
+            196,
+            560,
+            510
+          ],
+          "mode": "contain",
+          "radius": 0,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "anatomy_illustration"
+        },
+        {
+          "id": "nine_months",
+          "channel": "Typography",
+          "start": 195,
+          "end": 444,
+          "svg": "05_graphics/svg/nine_months.svg",
+          "png": "05_graphics/png/nine_months.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "nine_months"
+        },
+        {
+          "id": "race_swim",
+          "channel": "Images",
+          "start": 195,
+          "end": 444,
+          "svg": "05_graphics/svg/race_swim.svg",
+          "png": "05_graphics/png/race_swim.png",
+          "image": "00_references/powerpoint/race_swim.png",
+          "box": [
+            40,
+            168,
+            468,
+            616
+          ],
+          "mode": "cover",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "race_swim"
+        },
+        {
+          "id": "race_finish",
+          "channel": "Images",
+          "start": 195,
+          "end": 444,
+          "svg": "05_graphics/svg/race_finish.svg",
+          "png": "05_graphics/png/race_finish.png",
+          "image": "00_references/powerpoint/race_finish.png",
+          "box": [
+            532,
+            168,
+            468,
+            616
+          ],
+          "mode": "cover",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "race_finish"
+        },
+        {
+          "id": "product_title",
+          "channel": "Typography",
+          "start": 444,
+          "end": 874,
+          "svg": "05_graphics/svg/product_title.svg",
+          "png": "05_graphics/png/product_title.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "product_title"
+        },
+        {
+          "id": "product_exterior",
+          "channel": "Images",
+          "start": 444,
+          "end": 874,
+          "svg": "05_graphics/svg/product_exterior.svg",
+          "png": "05_graphics/png/product_exterior.png",
+          "image": "00_references/final_powerpoint/image2.png",
+          "box": [
+            80,
+            296,
+            428,
+            300
+          ],
+          "mode": "contain",
+          "radius": 24,
+          "keys": null,
+          "kind": null,
+          "extra": {
+            "tile_background": true
+          },
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "product_exterior"
+        },
+        {
+          "id": "product_interior",
+          "channel": "Images",
+          "start": 444,
+          "end": 874,
+          "svg": "05_graphics/svg/product_interior.svg",
+          "png": "05_graphics/png/product_interior.png",
+          "image": "00_references/final_powerpoint/image3.png",
+          "box": [
+            532,
+            296,
+            428,
+            300
+          ],
+          "mode": "contain",
+          "radius": 24,
+          "keys": null,
+          "kind": null,
+          "extra": {
+            "tile_background": true
+          },
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "product_interior"
+        },
+        {
+          "id": "material_shape_design",
+          "channel": "Images",
+          "start": 960,
+          "end": 1305,
+          "svg": "05_graphics/svg/material_shape_design.svg",
+          "png": "05_graphics/png/material_shape_design.png",
+          "image": null,
+          "box": [
+            40,
+            124,
+            960,
+            640
+          ],
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": "belt_trace",
+          "extra": {
+            "asset": "00_references/final_powerpoint/Belt_Trace_Source.png"
+          },
+          "entrance_frames": 1,
+          "exit_frames": 1,
+          "travel": 0,
+          "group": "material_shape_design"
+        },
+        {
+          "id": "community_animation",
+          "channel": "Images",
+          "start": 1335,
+          "end": 1455,
+          "svg": "05_graphics/svg/community_animation.svg",
+          "png": "05_graphics/png/community_animation.png",
+          "image": null,
+          "box": [
+            40,
+            124,
+            960,
+            640
+          ],
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": "community_video",
+          "extra": {
+            "asset": "00_references/final_powerpoint/media2.mp4"
+          },
+          "entrance_frames": 1,
+          "exit_frames": 1,
+          "travel": 0,
+          "group": "community_animation"
+        },
+        {
+          "id": "population",
+          "channel": "Typography",
+          "start": 1455,
+          "end": 1521,
+          "svg": "05_graphics/svg/population.svg",
+          "png": "05_graphics/png/population.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 0,
+          "group": "population"
+        },
+        {
+          "id": "audience",
+          "channel": "Typography",
+          "start": 1521,
+          "end": 1625,
+          "svg": "05_graphics/svg/audience.svg",
+          "png": "05_graphics/png/audience.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 0,
+          "group": "audience"
+        },
+        {
+          "id": "market_inputs",
+          "channel": "Typography",
+          "start": 1625,
+          "end": 1770,
+          "svg": "05_graphics/svg/market_inputs.svg",
+          "png": "05_graphics/png/market_inputs.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 0,
+          "group": "market_inputs"
+        },
+        {
+          "id": "market_result",
+          "channel": "Typography",
+          "start": 1637,
+          "end": 1770,
+          "svg": "05_graphics/svg/market_result.svg",
+          "png": "05_graphics/png/market_result.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 0,
+          "group": "market_result"
+        },
+        {
+          "id": "stealth_comparison",
+          "channel": "Images",
+          "start": 2040,
+          "end": 2340,
+          "svg": "05_graphics/svg/stealth_comparison.svg",
+          "png": "05_graphics/png/stealth_comparison.png",
+          "image": "00_references/final_powerpoint/image7.png",
+          "box": [
+            40,
+            112,
+            960,
+            640
+          ],
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "stealth_comparison"
+        },
+        {
+          "id": "stealth_website",
+          "channel": "Images",
+          "start": 2370,
+          "end": 2490,
+          "svg": "05_graphics/svg/stealth_website.svg",
+          "png": "05_graphics/png/stealth_website.png",
+          "image": null,
+          "box": [
+            88,
+            60,
+            864,
+            816
+          ],
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": "website",
+          "extra": {
+            "site": "stealth",
+            "play_start": 79,
+            "fit_complete": true
+          },
+          "entrance_frames": 1,
+          "exit_frames": 1,
+          "travel": 0,
+          "group": "stealth_website"
+        },
+        {
+          "id": "economics_title",
+          "channel": "Typography",
+          "start": 2517,
+          "end": 2736,
+          "svg": "05_graphics/svg/economics_title.svg",
+          "png": "05_graphics/png/economics_title.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "economics_title"
+        },
+        {
+          "id": "retail",
+          "channel": "Typography",
+          "start": 2570,
+          "end": 2736,
+          "svg": "05_graphics/svg/retail.svg",
+          "png": "05_graphics/png/retail.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "retail"
+        },
+        {
+          "id": "cogs",
+          "channel": "Typography",
+          "start": 2640,
+          "end": 2736,
+          "svg": "05_graphics/svg/cogs.svg",
+          "png": "05_graphics/png/cogs.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "cogs"
+        },
+        {
+          "id": "giving_title",
+          "channel": "Typography",
+          "start": 2736,
+          "end": 2975,
+          "svg": "05_graphics/svg/giving_title.svg",
+          "png": "05_graphics/png/giving_title.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "giving_title"
+        },
+        {
+          "id": "giving_purchase",
+          "channel": "Typography",
+          "start": 2736,
+          "end": 2975,
+          "svg": "05_graphics/svg/giving_purchase.svg",
+          "png": "05_graphics/png/giving_purchase.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "giving_purchase"
+        },
+        {
+          "id": "giving_supplies",
+          "channel": "Typography",
+          "start": 2794,
+          "end": 2975,
+          "svg": "05_graphics/svg/giving_supplies.svg",
+          "png": "05_graphics/png/giving_supplies.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "giving_supplies"
+        },
+        {
+          "id": "giving_people",
+          "channel": "Typography",
+          "start": 2871,
+          "end": 2975,
+          "svg": "05_graphics/svg/giving_people.svg",
+          "png": "05_graphics/png/giving_people.png",
+          "image": null,
+          "box": null,
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {},
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "travel": 16,
+          "group": "giving_people"
+        },
+        {
+          "id": "funding_studio",
+          "channel": "Images",
+          "start": 2975,
+          "end": 3240,
+          "svg": "05_graphics/svg/funding_studio.svg",
+          "png": "05_graphics/png/funding_studio.png",
+          "image": "00_references/final_powerpoint/image8.png",
+          "box": [
+            0,
+            148,
+            1040,
+            585
+          ],
+          "mode": "contain",
+          "radius": 16,
+          "keys": null,
+          "kind": null,
+          "extra": {
+            "exit_travel": 1100
+          },
+          "entrance_frames": 10,
+          "exit_frames": 24,
+          "travel": 16,
+          "group": "funding_studio"
+        }
+      ],
+      "surfaces": [
+        {
+          "id": "anatomy",
+          "start": 120,
+          "end": 195,
+          "box": [
+            40,
+            100,
+            960,
+            704
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "race_header",
+          "start": 195,
+          "end": 444,
+          "box": [
+            40,
+            64,
+            960,
+            80
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "paired_product",
+          "start": 444,
+          "end": 874,
+          "box": [
+            40,
+            160,
+            960,
+            544
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "market_population",
+          "start": 1455,
+          "end": 1521,
+          "box": [
+            80,
+            248,
+            880,
+            330
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "market_audience",
+          "start": 1521,
+          "end": 1625,
+          "box": [
+            80,
+            218,
+            880,
+            400
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "market_calculation",
+          "start": 1625,
+          "end": 1770,
+          "box": [
+            80,
+            222,
+            880,
+            460
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "economics",
+          "start": 2517,
+          "end": 2736,
+          "box": [
+            80,
+            230,
+            880,
+            472
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        },
+        {
+          "id": "giving",
+          "start": 2736,
+          "end": 2975,
+          "box": [
+            40,
+            224,
+            960,
+            500
+          ],
+          "style": "opaque",
+          "radius": 16,
+          "entrance_frames": 10,
+          "exit_frames": 8,
+          "keys": null
+        }
+      ],
+      "sounds": [
+        4,
+        6.5,
+        14.8,
+        32,
+        44.5,
+        48.5,
+        54.166667,
+        68,
+        79,
+        83.9,
+        91.2,
+        99.166667
+      ],
+      "graphics_clear_frame": 3240,
+      "market_clear_frame": 1770,
+      "source_take_untrimmed": true,
+      "source_fps": 24,
+      "website_crop": [
+        12,
+        12
+      ]
+    },
+    "scripts": {
+      "audio.py": "42724d67ce8ed7aa926adc456f1c283ba93e66d34bdd1181755a9b20e664d8c9",
+      "belt_trace.py": "914979256b3c161bf14e6faafde3fcd3643ca0db4c5c53078ea8eb7eb1f798df",
+      "color_metadata.py": "735c074d795a20a854f12b9718138fa5e61956cbc9dc75772893f88bdf095d33",
+      "community.py": "19b8391bf15ad4fb3097c49f227e170c1c912ba8f7a9e78ace2af0f1f4fc0a16",
+      "composite.py": "d42855cfd2e74c9184ca8ab822e9260be4120f975bf2f682ccf7a044d1cf89a6",
+      "delivery.py": "580901ed32bb2404f270a91d2f76ca9597e2f8cca88f1d63d9e0cb8cd2f3fdc5",
+      "design.py": "93565867b02ecd842a2c5c189d194b263517d2234773c91b435920d8d657964b",
+      "documentation.py": "eb34682a409fc98a67ca104e8f5f2b1d3a082cbeac3c37d4ec7d8b4d2a5fbcfa",
+      "fingerprint.py": "04c6859f287bb347f50fbe74af09fd012ae93ecad78f4861f79fb48af4224265",
+      "founder.py": "e87bfe5f87a86fb58dfbfe16ca56b9efa63754c8019d115c8583c1909124a097",
+      "full_scan.py": "d8bb70277015e7a04f8fc5334ef26c33c42027bfcaee5930a99f337e2949aae6",
+      "motion.py": "1862aed342f0f9158314225672f57cffd9a351d75af5382ba73a1f6185aba6a8",
+      "native_check.py": "05f47be057412079d97905547e896c498995adbb0a805de385c06ec43e65d03d",
+      "preview.py": "535b6af16d6eeb0682986a21dc7a1c5349aeeaca8fd2a7ed1dd35bfbddfae59a",
+      "project.py": "6570e9cfc003f00351ba5f646163d21cba9e44f946861d293afd5e7a3163fa1f",
+      "promote.py": "2904993c48efb11cc3ab5365fb6cc931e895e251885f8ee36138d0fc1b39d3bc",
+      "promote_delivery.py": "7240a82d45a828d76d26295af4f8a345350810c27803d0588658cec03a485cfe",
+      "publish.py": "f6e676aceb6e4ef34baff6c4ff01fbec48c5d89a26a205a0607fd3be760ef659",
+      "quality.py": "5682695f7ac81638d4479ba00ea1a0ae0093a243ec6f986166c46a2b8dd7cf03",
+      "quality_comparison.py": "298c9d67115d2cc6ccbcae393318ed6cdeb06c29ff378896452008a58615d53a",
+      "rebuild.py": "c3484c906ced8dee48ceedc75c7e49ccb743eb170c30fbce8bce6e50b86e4a45",
+      "source_project.py": "57075a45b2feaadbd635433d64d628fc1942e231aa448b415da1443e8c1803e3",
+      "verify_delivery.py": "a5ed08c43ffa8789eb22b85a196500f07b49e8d604e33b0c47412596dd53c7b7",
+      "verify_project.py": "e8c637ce4a9794ef5eea3ea5235ea483bf305d119acac9664e01ad95a0af61db",
+      "video_io.py": "b32a7dd2739bf0b4af4458c8984358c5ef929cdb9af6f5e9c14d25c746c7969e"
+    }
+  }
+}

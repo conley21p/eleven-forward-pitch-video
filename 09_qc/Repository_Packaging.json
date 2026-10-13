@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "git_lfs_fsck": "passed",
+  "git_fsck_full": "passed",
+  "native_media_references_checked": 221,
+  "large_media_restore": "Both oversized files reconstructed and SHA-256 verified from LFS parts",
+  "python_scripts_compile": "passed",
+  "credential_pattern_scan": "No credential patterns found in text sources",
+  "remote": "https://github.com/conley21p/eleven-forward-pitch-video",
+  "full_video_rerender": "not performed; packaged current verified exports unchanged",
+  "date": "2026-10-12",
+  "initial_publication_repack": "Final large LFS part split into 128 MiB pieces; SHA-256 and byte count identical"
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "ElevenForward_Kinetic_Archive_WORKING.mov",
+    "method": "stream copy; bitstream and container Rec.709 tags; no image/audio re-encoding"
+  },
+  {
+    "asset": "ElevenForward_Kinetic_Captioned_WORKING.mp4",
+    "method": "stream copy; bitstream and container Rec.709 tags; no image/audio re-encoding"
+  },
+  {
+    "asset": "ElevenForward_Kinetic_Clean_WORKING.mp4",
+    "method": "stream copy; bitstream and container Rec.709 tags; no image/audio re-encoding"
+  }
+]

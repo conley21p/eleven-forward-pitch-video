@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "frames": 3600,
+  "duration": 120,
+  "exports": [
+    {
+      "asset": "ElevenForward_Kinetic_Clean.mp4",
+      "frames": 3600,
+      "duration": "120.000000",
+      "decoded_without_errors": true,
+      "codec": "h264"
+    },
+    {
+      "asset": "ElevenForward_Kinetic_Captioned.mp4",
+      "frames": 3600,
+      "duration": "120.000000",
+      "decoded_without_errors": true,
+      "codec": "h264"
+    },
+    {
+      "asset": "ElevenForward_Kinetic_Archive.mov",
+      "frames": 3600,
+      "duration": "120.000000",
+      "decoded_without_errors": true,
+      "codec": "prores"
+    }
+  ],
+  "black_frames": [],
+  "opening_poster_mean_pixel_error": 0.06275511188271606,
+  "last_frame_source_index": 3837,
+  "last_frame_speaker_psnr": 41.94805784997898,
+  "speed": 1.066111111111111,
+  "pitch_preserved": true,
+  "source_end": 127.93333333333334,
+  "cover_adds_time": false,
+  "source_quality": "Lossless AirDropped founder intermediate; one final MP4 encode",
+  "caption_timing": "retimed with same speed; last caption ends before120s"
+}

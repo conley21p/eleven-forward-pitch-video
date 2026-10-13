@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mesha",
+    "username": "mrcolitiscrohns",
+    "full_name": "Mesha Moinirad",
+    "instagram_url": "https://www.instagram.com/mrcolitiscrohns/",
+    "image_url": "https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/164428249_195867215300580_7173923473000116715_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGBuPYUILoC-YKpjYP3QteGDXqXZAfEgwm5yywirFxG_ABmtBfvXm7pZE45ajdKsDxPYrpWa-G87V6CZ-JtrUPu&_nc_ohc=sc_NMh26KWoQ7kNvwFpUv1d&_nc_gid=1uq1wSAHId5vYBK76llKvQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQNsRPX-MMv9_gzbUcCJH8VXywkgNMA5uwMrRxMnwrKXTA&oe=6AD1F015&_nc_sid=8b3546",
+    "file": "00_references/community/mesha_profile.jpg",
+    "source": "Public Instagram profile retrieved through user-authorized Apify",
+    "capture_date": "2026-10-11",
+    "platforms": [
+      "Instagram",
+      "TikTok"
+    ],
+    "platform_evidence": {
+      "Instagram": "https://www.instagram.com/mrcolitiscrohns/",
+      "TikTok": "https://newsroom.tiktok.com/tiktok-creator-spotlight-mr-colitiscrohns?lang=en-GB"
+    }
+  },
+  {
+    "id": "sara",
+    "username": "saralevs",
+    "full_name": "Sara Levitt | The Bag Bish | Creator & Model",
+    "instagram_url": "https://www.instagram.com/saralevs/",
+    "image_url": "https://scontent-cdg6-1.cdninstagram.com/v/t51.82787-19/549255351_18523457401031451_6191824518494309524_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MTcuYzIifQ&_nc_ht=scontent-cdg6-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHktGS60J9EveG8nk8I2BJAfSdHmG2jvjU0KNiJRHFZyf0mTIXafOEXZHW0m4Z36G0&_nc_ohc=ihqZqXAGTe8Q7kNvwEBUFWa&_nc_gid=gT6Gvn3pRgQzqdPNyyd9cw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQPomTaBwv9TJvDzCLQX6lpawCwcpCfLs-NmT6mXE8F0Ig&oe=6AD1DA34&_nc_sid=8b3546",
+    "file": "00_references/community/sara_profile.jpg",
+    "source": "Public Instagram profile retrieved through user-authorized Apify",
+    "capture_date": "2026-10-11",
+    "platforms": [
+      "Instagram",
+      "TikTok"
+    ],
+    "platform_evidence": {
+      "Instagram": "https://www.instagram.com/saralevs/",
+      "TikTok": "https://linktr.ee/saralevs"
+    }
+  },
+  {
+    "id": "louise",
+    "username": "louise.thompson",
+    "full_name": "Louise Thompson",
+    "instagram_url": "https://www.instagram.com/louise.thompson/",
+    "image_url": "https://scontent-qro3-1.cdninstagram.com/v/t51.2885-19/478433480_1706210566594593_3718955810872746085_n.jpg?_nc_cat=1&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=X-EFIMcuxNUQ7kNvwF2P5TN&_nc_oc=AdoGzUBpXIztvw1TRovdYivQ3oexrhIj17BSMP2fqaPX_k4PdS417I49uCkg6csqZsc&_nc_zt=24&_nc_ht=scontent-qro3-1.cdninstagram.com&_nc_ss=70689&oh=00_AQMAgRZfdI8RPhKleaDJFdFE8hBL6JgGlxaRH2-vUkwi5Q&oe=6AD1FA78",
+    "file": "00_references/community/louise_profile.jpg",
+    "source": "Public Instagram profile retrieved through user-authorized Apify",
+    "capture_date": "2026-10-11",
+    "platforms": [
+      "Instagram",
+      "TikTok"
+    ],
+    "platform_evidence": {
+      "Instagram": "https://www.instagram.com/louise.thompson/",
+      "TikTok": "Supplied community_louise.png TikTok profile @louisethompson"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "status": "verified_exact_two_minute_delivery",
+  "name": "Eleven Forward \u00b7 Final two-minute pitch",
+  "root": "Two_Minute_Final_Revision",
+  "native_project": "Two_Minute_Final_Revision/07_kdenlive/ElevenForward_Kinetic.kdenlive",
+  "editable_source_project": "Two_Minute_Final_Revision/07_kdenlive/Source_ElevenForward_Kinetic.kdenlive",
+  "clean_video": "Two_Minute_Final_Revision/08_exports/ElevenForward_Kinetic_Clean.mp4",
+  "captioned_video": "Two_Minute_Final_Revision/08_exports/ElevenForward_Kinetic_Captioned.mp4",
+  "archive": "Two_Minute_Final_Revision/08_exports/ElevenForward_Kinetic_Archive.mov",
+  "review_player": "Two_Minute_Final_Revision/10_review/Review.html",
+  "poster": "Two_Minute_Final_Revision/05_graphics/Playback_Poster.png",
+  "duration": 120,
+  "frames": 3600,
+  "fps": 30,
+  "playback_speed": 1.066111111111111,
+  "source_revision": "AirDrop_Source_Revision",
+  "source_end": 127.93333333333334,
+  "pitch_preserved": true,
+  "color_grading_applied": false,
+  "source_performance_retained": "All spoken content; trailing silence trimmed",
+  "previous_revision_preserved": "AirDrop_Source_Revision"
+}

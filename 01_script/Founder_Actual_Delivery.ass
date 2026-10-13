@@ -1,0 +1,61 @@
+[Script Info]
+Title: Eleven Forward actual recorded delivery
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Center,Arial,42,&H00FFFFFF,&H00FFFFFF,&H99111111,&H99111111,0,0,0,0,100,100,0,0,3,2,0,2,54,54,40,1
+Style: Left,Arial,32,&H00FFFFFF,&H00FFFFFF,&H99111111,&H99111111,0,0,0,0,100,100,0,0,3,2,0,1,54,1150,40,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.05,0:00:02.58,Center,,0,0,0,,{\an2\pos(960,1040)}I didn't get a second chance at life just to live cautiously.
+Dialogue: 0,0:00:03.25,0:00:05.32,Center,,0,0,0,,{\an2\pos(960,1040)}In 2022, an ostomy saved my life.
+Dialogue: 0,0:00:06.11,0:00:09.28,Left,,0,0,0,,{\an1\pos(54,1040)}Nine months later, I was competing in\Ntriathlons with a product designed
+Dialogue: 0,0:00:09.28,0:00:12.17,Left,,0,0,0,,{\an1\pos(54,1040)}for people like me never made the same\Ntransition from patient to
+Dialogue: 0,0:00:12.17,0:00:12.54,Left,,0,0,0,,{\an1\pos(54,1040)}athlete.
+Dialogue: 0,0:00:13.18,0:00:15.81,Left,,0,0,0,,{\an1\pos(54,1040)}So I'm building the product I spent years\Nwishing existed.
+Dialogue: 0,0:00:16.50,0:00:19.52,Left,,0,0,0,,{\an1\pos(54,1040)}A discreet athletic support belt designed\Nfor people
+Dialogue: 0,0:00:19.52,0:00:22.60,Left,,0,0,0,,{\an1\pos(54,1040)}with this condition who refuse to let it\Nlimit the way they
+Dialogue: 0,0:00:22.60,0:00:25.58,Left,,0,0,0,,{\an1\pos(54,1040)}live, whether that's competing in a\Ntriathlon, HYROX,
+Dialogue: 0,0:00:25.60,0:00:26.80,Left,,0,0,0,,{\an1\pos(54,1040)}or simply going to the pool.
+Dialogue: 0,0:00:27.34,0:00:30.51,Left,,0,0,0,,{\an1\pos(54,1040)}I'm not looking to make a slightly better\Nversion of what already
+Dialogue: 0,0:00:30.51,0:00:30.87,Left,,0,0,0,,{\an1\pos(54,1040)}exists.
+Dialogue: 0,0:00:31.41,0:00:34.53,Left,,0,0,0,,{\an1\pos(54,1040)}I'm wanting to rethink the entire category\Nall the way down to the material,
+Dialogue: 0,0:00:34.73,0:00:35.56,Left,,0,0,0,,{\an1\pos(54,1040)}shape, and design.
+Dialogue: 0,0:00:35.86,0:00:36.70,Left,,0,0,0,,{\an1\pos(54,1040)}The goal is simple.
+Dialogue: 0,0:00:37.08,0:00:40.12,Left,,0,0,0,,{\an1\pos(54,1040)}When someone puts it on, I want them\Nthinking about what they're doing and
+Dialogue: 0,0:00:40.12,0:00:40.87,Left,,0,0,0,,{\an1\pos(54,1040)}not their ostomy.
+Dialogue: 0,0:00:41.30,0:00:42.65,Left,,0,0,0,,{\an1\pos(54,1040)}And this isn't a small community.
+Dialogue: 0,0:00:43.49,0:00:46.36,Left,,0,0,0,,{\an1\pos(54,1040)}Approximately one million Americans are\Nliving with this ostomy
+Dialogue: 0,0:00:46.36,0:00:49.20,Left,,0,0,0,,{\an1\pos(54,1040)}condition, including 200,000 between the\Nages of
+Dialogue: 0,0:00:49.20,0:00:52.18,Left,,0,0,0,,{\an1\pos(54,1040)}13 and 44, representing a $24 million
+Dialogue: 0,0:00:52.18,0:00:53.55,Left,,0,0,0,,{\an1\pos(54,1040)}annual addressable market.
+Dialogue: 0,0:00:53.91,0:00:55.28,Left,,0,0,0,,{\an1\pos(54,1040)}And this is not a stagnant market.
+Dialogue: 0,0:00:55.69,0:00:58.60,Left,,0,0,0,,{\an1\pos(54,1040)}The conditions driving ostomy surgeries\Nare increasing, particularly
+Dialogue: 0,0:00:58.60,0:01:00.13,Left,,0,0,0,,{\an1\pos(54,1040)}amongst younger Americans.
+Dialogue: 0,0:01:00.94,0:01:03.38,Left,,0,0,0,,{\an1\pos(54,1040)}The problem isn't that ostomy support\Nproducts don't exist.
+Dialogue: 0,0:01:03.76,0:01:06.46,Left,,0,0,0,,{\an1\pos(54,1040)}It's the category hasn't evolved with the\Npeople who depend on it.
+Dialogue: 0,0:01:07.11,0:01:10.23,Left,,0,0,0,,{\an1\pos(54,1040)}Shopping for products from a Stealth Belt,\NSIIL ostomy can often
+Dialogue: 0,0:01:10.23,0:01:12.74,Left,,0,0,0,,{\an1\pos(54,1040)}feel like going to a retirement home to\Nbuy your everyday apparel.
+Dialogue: 0,0:01:13.38,0:01:16.10,Left,,0,0,0,,{\an1\pos(54,1040)}The products exist, but they don't reflect\Nthe way younger
+Dialogue: 0,0:01:16.10,0:01:17.86,Left,,0,0,0,,{\an1\pos(54,1040)}customers want it to feel look.
+Dialogue: 0,0:01:18.69,0:01:21.76,Left,,0,0,0,,{\an1\pos(54,1040)}Our product will retail at $120 per unit
+Dialogue: 0,0:01:21.76,0:01:24.69,Left,,0,0,0,,{\an1\pos(54,1040)}with a targeted COGS of approximately 10%\Nof retail
+Dialogue: 0,0:01:24.69,0:01:25.01,Left,,0,0,0,,{\an1\pos(54,1040)}price.
+Dialogue: 0,0:01:25.55,0:01:28.61,Left,,0,0,0,,{\an1\pos(54,1040)}A portion of every purchase will help\Nprovide essential ostomy
+Dialogue: 0,0:01:28.61,0:01:31.56,Left,,0,0,0,,{\an1\pos(54,1040)}supplies to people without health\Ninsurance who can't afford
+Dialogue: 0,0:01:31.56,0:01:32.10,Left,,0,0,0,,{\an1\pos(54,1040)}it.
+Dialogue: 0,0:01:33.02,0:01:36.12,Left,,0,0,0,,{\an1\pos(54,1040)}With a $3,000 prize money, we will be able\Nto
+Dialogue: 0,0:01:36.12,0:01:39.23,Left,,0,0,0,,{\an1\pos(54,1040)}take our 3D design off the screen and into\Nthe hands of
+Dialogue: 0,0:01:39.23,0:01:40.92,Left,,0,0,0,,{\an1\pos(54,1040)}a professional prototyping studio.
+Dialogue: 0,0:01:41.95,0:01:45.05,Left,,0,0,0,,{\an1\pos(54,1040)}I have began developing teams of graduate\Nstudents,
+Dialogue: 0,0:01:45.16,0:01:48.22,Left,,0,0,0,,{\an1\pos(54,1040)}software engineers, and even medical\Nprofessionals to assist with
+Dialogue: 0,0:01:48.22,0:01:51.31,Left,,0,0,0,,{\an1\pos(54,1040)}our company's mission to improve the\Nquality of life for this underserved
+Dialogue: 0,0:01:51.31,0:01:51.67,Left,,0,0,0,,{\an1\pos(54,1040)}community.
+Dialogue: 0,0:01:52.29,0:01:55.36,Center,,0,0,0,,{\an2\pos(960,1040)}I know this problem personally because I live with it every day.
+Dialogue: 0,0:01:55.81,0:01:57.41,Center,,0,0,0,,{\an2\pos(960,1040)}I'm not trying to create just another product.
+Dialogue: 0,0:01:57.76,0:01:59.98,Center,,0,0,0,,{\an2\pos(960,1040)}I want to bring to the market the product I wish I had.

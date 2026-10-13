@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "camera": "d53fdf156787774fc1086dcfe3680a78f74239c6b4e05722955da8caed6680d9",
+    "framed_take": "8758737964b03852525aa3790ed4afa9ae8445b0a3dc72c5b974f62c00931ede",
+    "dialogue": "d28f99f0ae99124cd91ca0807623c4ee234614487df2e9dd26d291de4d0e8e32"
+  },
+  "lossless_samples": [
+    {
+      "frame": 30,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 90,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 106,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 600,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 1140,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 1440,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 1710,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 2250,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 2700,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 3090,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 3216,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 3228,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 3240,
+      "maximum_pixel_error": 0.0
+    },
+    {
+      "frame": 3630,
+      "maximum_pixel_error": 0.0
+    }
+  ],
+  "crop_rows_verified": 3851,
+  "tracking": false,
+  "matting": false
+}

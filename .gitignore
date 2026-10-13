@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+node_modules/
+*.kdenlive~
+*.backup
+*_WORKING.*
+*.detached
+/03_founder/Founder_Gradient_30fps.mkv
+/08_exports/ElevenForward_Kinetic_Archive.mov
+*.restore_test_backup
+*.restoring

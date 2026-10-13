@@ -1,0 +1,47 @@
+{
+  "source": "03_founder/Original_Camera_Take.mov",
+  "source_resolution": [
+    3840,
+    2160
+  ],
+  "source_fps": 24,
+  "output_frames": 3851,
+  "fps": 30,
+  "crop_size": [
+    2129.92,
+    1198.08
+  ],
+  "crop_y": 382,
+  "opening_x": 858.04,
+  "main_x": 1381.52,
+  "opening_move_frames": [
+    83,
+    107
+  ],
+  "closing_move_frames": [
+    3216,
+    3240
+  ],
+  "tracking": false,
+  "interpolation": "None; nearest timestamp source-frame mapping",
+  "person_matting": false,
+  "portrait_blur": false,
+  "spatial_blur": {
+    "start_x": 880,
+    "full_x": 1160,
+    "sigma": 4,
+    "curve": "smoothstep",
+    "strength_fades_with_horizontal_composition": true
+  },
+  "active_founder": "03_founder/Founder_Gradient_30fps.mkv",
+  "intermediate": "Lossless FFV1 RGB",
+  "source_hashes": {
+    "camera": "e6d38ef034a66ebe2863cdec57321f4c9ca9a3628ff4755e8a67c8669f5b173e",
+    "framed_take": "8758737964b03852525aa3790ed4afa9ae8445b0a3dc72c5b974f62c00931ede",
+    "dialogue": "d28f99f0ae99124cd91ca0807623c4ee234614487df2e9dd26d291de4d0e8e32"
+  },
+  "status": "verified_render",
+  "additional_crop_width_percent": 4.0,
+  "speaker_size_change_from_last_render_percent": -3.8461538461538547,
+  "resampling": "Single Lanczos4 affine sample directly from original 4K pixels"
+}

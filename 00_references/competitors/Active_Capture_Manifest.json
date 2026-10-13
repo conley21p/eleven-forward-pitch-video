@@ -1,0 +1,70 @@
+[
+  {
+    "id": "stealth",
+    "name": "Stealth Belt",
+    "url": "https://stealthbelt.org/collections",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "device_scale_factor": 2,
+    "output": {
+      "width": 1800,
+      "height": 1800
+    },
+    "fps": 30,
+    "frames": 126,
+    "scroll_css_px": 240,
+    "status": "captured",
+    "capture_date": "2026-10-09T14:24:19.290Z",
+    "method": "Rendered browser viewport frames sampled at 30 fps timeline; 6-frame opening/ending holds",
+    "poster": "stealth/poster.png",
+    "recording": "stealth/stealth_square.mp4",
+    "opening_scroll_css_px": 0,
+    "ending_scroll_css_px": 240,
+    "overlay_actions": [],
+    "display_resize": [
+      720,
+      720
+    ],
+    "display_crop_per_side": 12,
+    "display_dimensions": [
+      696,
+      720
+    ]
+  },
+  {
+    "id": "siil",
+    "name": "SIIL Ostomy",
+    "url": "https://www.siilostomy.com/en/ostomy-belt/",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "device_scale_factor": 2,
+    "output": {
+      "width": 1800,
+      "height": 1800
+    },
+    "fps": 30,
+    "frames": 126,
+    "scroll_css_px": 240,
+    "status": "captured",
+    "capture_date": "2026-10-09T14:24:57.714Z",
+    "method": "Rendered browser viewport frames sampled at 30 fps timeline; 6-frame opening/ending holds",
+    "poster": "siil/poster.png",
+    "recording": "siil/siil_square.mp4",
+    "opening_scroll_css_px": 0,
+    "ending_scroll_css_px": 240,
+    "overlay_actions": [],
+    "display_resize": [
+      720,
+      720
+    ],
+    "display_crop_per_side": 12,
+    "display_dimensions": [
+      696,
+      720
+    ]
+  }
+]

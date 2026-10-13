@@ -1,0 +1,312 @@
+[
+  {
+    "asset": "00_references/final_powerpoint/Anatomy_Cutout.png",
+    "sha256": "91be29cf23285b0980b58391285ff7ea44806b6adb99021f0755b165695d3c4d",
+    "bytes": 1200491
+  },
+  {
+    "asset": "00_references/final_powerpoint/Belt_Trace_Source.png",
+    "sha256": "54c44c0dced944fda242d708bf07e2d8b7c2350b1c90f76dec7e4d392f4ee672",
+    "bytes": 2146348
+  },
+  {
+    "asset": "00_references/final_powerpoint/Community_Dark_Original_Motion.mkv",
+    "sha256": "139c60b7e8ba78d8a4842bed9f17fb47558d63f376f83e971d3b100cc84903bb",
+    "bytes": 23753462
+  },
+  {
+    "asset": "00_references/final_powerpoint/image2.png",
+    "sha256": "146a23e36bb6197d3c740784a496c46e6c5739d49d39d426f14ea33146b62570",
+    "bytes": 2501481
+  },
+  {
+    "asset": "00_references/final_powerpoint/image3.png",
+    "sha256": "0d9dc4d753cbe401e8bf76662814f56d0d2f416186a33604dee62480e0b77596",
+    "bytes": 2549821
+  },
+  {
+    "asset": "00_references/final_powerpoint/image7.png",
+    "sha256": "cc72133c26828dc7abe3b9a3331611b5e919b5b333efdadae03327d60b2141a0",
+    "bytes": 2040769
+  },
+  {
+    "asset": "00_references/final_powerpoint/image8.png",
+    "sha256": "a6399f2738b2ce5a7d6a70e610078ebb8a10bb72aeb7e53833c095dc6fb8d375",
+    "bytes": 2000169
+  },
+  {
+    "asset": "00_references/final_powerpoint/media2.mp4",
+    "sha256": "7bdbeb54bd57f468fc9dc1fd488f4de7cca4aede35c1fd8c67c6f8430232232b",
+    "bytes": 214207
+  },
+  {
+    "asset": "00_references/powerpoint/race_finish.png",
+    "sha256": "fc2eeca286a0d44d331ea491f631ac503992fe7abe801ecb55cc1919860ea751",
+    "bytes": 3601791
+  },
+  {
+    "asset": "00_references/powerpoint/race_swim.png",
+    "sha256": "b4cea3c29e9c6d798167728e1319a599bf99a059eb48c57e09f63c95e39fef60",
+    "bytes": 1636350
+  },
+  {
+    "asset": "03_founder/Original_Camera_Take.mov",
+    "sha256": "d53fdf156787774fc1086dcfe3680a78f74239c6b4e05722955da8caed6680d9",
+    "bytes": 426106810
+  },
+  {
+    "asset": "04_audio/Founder_Dialogue.wav",
+    "sha256": "d28f99f0ae99124cd91ca0807623c4ee234614487df2e9dd26d291de4d0e8e32",
+    "bytes": 18484902
+  },
+  {
+    "asset": "05_graphics/01_wordmark.png",
+    "sha256": "7eebf26a0ade2c93ce71121031277c177e46299b7a78fbc5f044fd93b72fe108",
+    "bytes": 35727
+  },
+  {
+    "asset": "05_graphics/01_wordmark.svg",
+    "sha256": "b9830b5583c88b6f4fa7b0d21f5ff934f45b961e2865e04407055694d08035c5",
+    "bytes": 239634
+  },
+  {
+    "asset": "05_graphics/png/anatomy_illustration.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/anatomy_title.png",
+    "sha256": "b7a6e9dd725805237f2136cdde2f8e046942904710c9007cfdf741a8babb676f",
+    "bytes": 11099
+  },
+  {
+    "asset": "05_graphics/png/audience.png",
+    "sha256": "fe87391553d849c7200cd8c1ed987d32cca99a3143001664556b4d277e974fca",
+    "bytes": 25594
+  },
+  {
+    "asset": "05_graphics/png/cogs.png",
+    "sha256": "1ae9d0a34e782fb30e03e4b4860cba2cff205320965b5d2601c214322cd6943c",
+    "bytes": 15392
+  },
+  {
+    "asset": "05_graphics/png/community_animation.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/economics_title.png",
+    "sha256": "0479fe675eb55f74fda182866f8f55227b79003cf20e2baa1d4006adea6624d7",
+    "bytes": 9672
+  },
+  {
+    "asset": "05_graphics/png/funding_studio.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/giving_people.png",
+    "sha256": "6d4357b4f9456ae6e954432749e0a8b8b4ec5885bf66f5f89919cfdb117cd951",
+    "bytes": 11775
+  },
+  {
+    "asset": "05_graphics/png/giving_purchase.png",
+    "sha256": "8fe986996138097c94c9f5c355a38ce0affe2b94b768fe999a204315c0fa4297",
+    "bytes": 11797
+  },
+  {
+    "asset": "05_graphics/png/giving_supplies.png",
+    "sha256": "26b67b635c89bea8c7ba423de9c853c1e7a72926c07f9bbc156ed61b7c2a61a4",
+    "bytes": 11171
+  },
+  {
+    "asset": "05_graphics/png/giving_title.png",
+    "sha256": "74b7cee51e1d4dea14891d8a685b43fdf95af8af623ba210df8e56c9f0d4255e",
+    "bytes": 8978
+  },
+  {
+    "asset": "05_graphics/png/market_inputs.png",
+    "sha256": "e22a0b1d72030337fe843a571b97c17251cb0dc37437c51b4a5ba1a0186f9f92",
+    "bytes": 19290
+  },
+  {
+    "asset": "05_graphics/png/market_result.png",
+    "sha256": "9cfb747384b3b68eb3cc2d8ed1a4193909b8304a2b95fbbd19220279b55cc688",
+    "bytes": 33498
+  },
+  {
+    "asset": "05_graphics/png/material_shape_design.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/nine_months.png",
+    "sha256": "20882c72ea1afcc1d8c90fc9b0d57c32a19504deef587c9e5245c46ada63d524",
+    "bytes": 8324
+  },
+  {
+    "asset": "05_graphics/png/population.png",
+    "sha256": "548f62ba836b02328d35a04811346623e6df67744730985299cda82dccb417ab",
+    "bytes": 19802
+  },
+  {
+    "asset": "05_graphics/png/product_exterior.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/product_interior.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/product_title.png",
+    "sha256": "df419eaa06e27548aa0570932f6367fd274a5497cebe42dd44d0bb18ba5806e5",
+    "bytes": 13864
+  },
+  {
+    "asset": "05_graphics/png/race_finish.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/race_swim.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/retail.png",
+    "sha256": "0c5e42bf4fe84c0dd074113d7a3b8395d8036faba2a2d57b3ba4db25f8d215c8",
+    "bytes": 11120
+  },
+  {
+    "asset": "05_graphics/png/stealth_comparison.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/png/stealth_website.png",
+    "sha256": "9f521768f28859555c222ebc5afc8bd3f6c5d37e708458a77f611d3fe7523838",
+    "bytes": 3875
+  },
+  {
+    "asset": "05_graphics/svg/anatomy_illustration.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/anatomy_title.svg",
+    "sha256": "c05592ac3b1603063593f0709655a30b84363e64a0240b0a63ad548ae44de631",
+    "bytes": 209
+  },
+  {
+    "asset": "05_graphics/svg/audience.svg",
+    "sha256": "8f98d294a96d36d2cf92db0a9e3fd8a55e56597ce04e497f0bce9dca5be3e2fc",
+    "bytes": 613
+  },
+  {
+    "asset": "05_graphics/svg/cogs.svg",
+    "sha256": "d2c6b7d46f1b68fc3098f0c5dfd8c588129d906261d3f95581479ab59893baf4",
+    "bytes": 455
+  },
+  {
+    "asset": "05_graphics/svg/community_animation.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/economics_title.svg",
+    "sha256": "11385af520abd96231110b87d10e82d63f1fda59aac8d4d0422c896f9c3b207c",
+    "bytes": 205
+  },
+  {
+    "asset": "05_graphics/svg/funding_studio.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/giving_people.svg",
+    "sha256": "f42d209964c27756a5516b5bbbc6163fea9eef921c652ca6c6d9664ecc451316",
+    "bytes": 223
+  },
+  {
+    "asset": "05_graphics/svg/giving_purchase.svg",
+    "sha256": "519273e09ce003d433ab9ffcdd6dc99a104038d22481568505efe0d9012333a1",
+    "bytes": 211
+  },
+  {
+    "asset": "05_graphics/svg/giving_supplies.svg",
+    "sha256": "1e0b295f2ac9a3126c130b4e2638530b305ed3a48a0e93a6f11e2e9da23338b4",
+    "bytes": 213
+  },
+  {
+    "asset": "05_graphics/svg/giving_title.svg",
+    "sha256": "e70a435219d1719b5d4322a684e17125c18a34c8418861ec646c7c5f26f98f03",
+    "bytes": 268
+  },
+  {
+    "asset": "05_graphics/svg/market_inputs.svg",
+    "sha256": "b0f9d70aed441fba66fe4c8752412e5cb545e591417e4b7583e36f3a9a778f7a",
+    "bytes": 594
+  },
+  {
+    "asset": "05_graphics/svg/market_result.svg",
+    "sha256": "40d28f2d5f9d5e679d75345a764f3718f339b594994dfc05d20f9418ab9b8346",
+    "bytes": 729
+  },
+  {
+    "asset": "05_graphics/svg/material_shape_design.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/nine_months.svg",
+    "sha256": "2c29d70474ef9b7f8fe2acefba832a49d288e2b162d75f7dd598e6d538875404",
+    "bytes": 202
+  },
+  {
+    "asset": "05_graphics/svg/population.svg",
+    "sha256": "1817e1548688f64c12963a4ee54025776264b7d8f26908588be84644ff1da0e9",
+    "bytes": 475
+  },
+  {
+    "asset": "05_graphics/svg/product_exterior.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/product_interior.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/product_title.svg",
+    "sha256": "16c8c6085a3b2493ac806d1c0c609c8af3a7e5d72228d281ea6365e8be327897",
+    "bytes": 454
+  },
+  {
+    "asset": "05_graphics/svg/race_finish.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/race_swim.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/retail.svg",
+    "sha256": "d84164e346d07478986a585c7101ae1a6f4c1ce718d22e6c5531efc00c79f048",
+    "bytes": 323
+  },
+  {
+    "asset": "05_graphics/svg/stealth_comparison.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  },
+  {
+    "asset": "05_graphics/svg/stealth_website.svg",
+    "sha256": "cc92902a774e8eb060d4ab815d325cc3dee24bc143380b607b2908475c8c3e12",
+    "bytes": 72
+  }
+]

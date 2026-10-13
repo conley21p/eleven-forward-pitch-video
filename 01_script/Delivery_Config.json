@@ -1,0 +1,13 @@
+{
+  "frames": 3600,
+  "fps": 30,
+  "duration": 120,
+  "source_frames_retained": 3838,
+  "source_end": 127.93333333333334,
+  "speed": 1.066111111111111,
+  "pitch_preserved": true,
+  "cover_hold": 0.2,
+  "cover_fade_end": 0.75,
+  "source_revision": "AirDrop_Source_Revision",
+  "poster": "05_graphics/Playback_Poster.png"
+}

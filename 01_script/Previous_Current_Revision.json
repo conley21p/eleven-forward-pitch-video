@@ -1,0 +1,18 @@
+{
+  "status": "verified_airdrop_source_revision",
+  "name": "Eleven Forward \u00b7 AirDropped original source",
+  "root": "AirDrop_Source_Revision",
+  "native_project": "AirDrop_Source_Revision/07_kdenlive/ElevenForward_Kinetic.kdenlive",
+  "clean_video": "AirDrop_Source_Revision/08_exports/ElevenForward_Kinetic_Clean.mp4",
+  "captioned_video": "AirDrop_Source_Revision/08_exports/ElevenForward_Kinetic_Captioned.mp4",
+  "archive": "AirDrop_Source_Revision/08_exports/ElevenForward_Kinetic_Archive.mov",
+  "design_review": "AirDrop_Source_Revision/10_review/Review.html",
+  "duration": 128.36666666666667,
+  "frames": 3851,
+  "fps": 30,
+  "source_take_untrimmed": true,
+  "graphics_end": 108,
+  "additional_4_percent_crop_rendered": true,
+  "previous_revision_preserved": "Speaker_Quality_Revision",
+  "independent_astra_review": "Not performed for this revision"
+}

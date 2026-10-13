@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Anatomy Images",
+    "asset": "05_graphics/motion/Anatomy_Images.mov",
+    "start": 120,
+    "end": 195,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "anatomy_illustration"
+    ]
+  },
+  {
+    "name": "Anatomy Typography",
+    "asset": "05_graphics/motion/Anatomy_Typography.mov",
+    "start": 120,
+    "end": 195,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "anatomy_title"
+    ]
+  },
+  {
+    "name": "Race Images",
+    "asset": "05_graphics/motion/Race_Images.mov",
+    "start": 195,
+    "end": 444,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "race_swim",
+      "race_finish"
+    ]
+  },
+  {
+    "name": "Race Typography",
+    "asset": "05_graphics/motion/Race_Typography.mov",
+    "start": 195,
+    "end": 444,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "nine_months"
+    ]
+  },
+  {
+    "name": "Product Images",
+    "asset": "05_graphics/motion/Product_Images.mov",
+    "start": 444,
+    "end": 874,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "product_exterior",
+      "product_interior"
+    ]
+  },
+  {
+    "name": "Product Typography",
+    "asset": "05_graphics/motion/Product_Typography.mov",
+    "start": 444,
+    "end": 874,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "product_title"
+    ]
+  },
+  {
+    "name": "Details Images",
+    "asset": "05_graphics/motion/Details_Images.mov",
+    "start": 960,
+    "end": 1305,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "material_shape_design"
+    ]
+  },
+  {
+    "name": "Community Images",
+    "asset": "05_graphics/motion/Community_Images.mov",
+    "start": 1335,
+    "end": 1455,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "community_animation"
+    ]
+  },
+  {
+    "name": "Market Typography",
+    "asset": "05_graphics/motion/Market_Typography.mov",
+    "start": 1455,
+    "end": 1770,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "population",
+      "audience",
+      "market_inputs",
+      "market_result"
+    ]
+  },
+  {
+    "name": "Comparison Images",
+    "asset": "05_graphics/motion/Comparison_Images.mov",
+    "start": 2040,
+    "end": 2340,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "stealth_comparison"
+    ]
+  },
+  {
+    "name": "StealthWebsite Images",
+    "asset": "05_graphics/motion/StealthWebsite_Images.mov",
+    "start": 2370,
+    "end": 2490,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "stealth_website"
+    ]
+  },
+  {
+    "name": "Economics Typography",
+    "asset": "05_graphics/motion/Economics_Typography.mov",
+    "start": 2517,
+    "end": 2736,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "economics_title",
+      "retail",
+      "cogs"
+    ]
+  },
+  {
+    "name": "Giving Typography",
+    "asset": "05_graphics/motion/Giving_Typography.mov",
+    "start": 2736,
+    "end": 2975,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "giving_title",
+      "giving_purchase",
+      "giving_supplies",
+      "giving_people"
+    ]
+  },
+  {
+    "name": "Funding Images",
+    "asset": "05_graphics/motion/Funding_Images.mov",
+    "start": 2975,
+    "end": 3240,
+    "rect": [
+      0,
+      0,
+      1920,
+      1080
+    ],
+    "elements": [
+      "funding_studio"
+    ]
+  }
+]

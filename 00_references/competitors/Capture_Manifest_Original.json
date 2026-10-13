@@ -1,0 +1,79 @@
+[
+  {
+    "id": "stealth",
+    "name": "Stealth Belt",
+    "url": "https://stealthbelt.org/collections",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "device_scale_factor": 2,
+    "output": {
+      "width": 1800,
+      "height": 1800
+    },
+    "fps": 30,
+    "frames": 126,
+    "scroll_css_px": 240,
+    "status": "captured",
+    "capture_date": "2026-10-09T14:24:19.290Z",
+    "method": "Rendered browser viewport frames sampled at 30 fps timeline; 6-frame opening/ending holds",
+    "poster": "stealth/poster.png",
+    "recording": "stealth/stealth_square.mp4",
+    "opening_scroll_css_px": 0,
+    "ending_scroll_css_px": 240,
+    "overlay_actions": []
+  },
+  {
+    "id": "siil",
+    "name": "SIIL Ostomy",
+    "url": "https://www.siilostomy.com/en/ostomy-belt/",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "device_scale_factor": 2,
+    "output": {
+      "width": 1800,
+      "height": 1800
+    },
+    "fps": 30,
+    "frames": 126,
+    "scroll_css_px": 240,
+    "status": "captured",
+    "capture_date": "2026-10-09T14:24:57.714Z",
+    "method": "Rendered browser viewport frames sampled at 30 fps timeline; 6-frame opening/ending holds",
+    "poster": "siil/poster.png",
+    "recording": "siil/siil_square.mp4",
+    "opening_scroll_css_px": 0,
+    "ending_scroll_css_px": 240,
+    "overlay_actions": []
+  },
+  {
+    "id": "coloplast",
+    "name": "Coloplast",
+    "url": "https://products.coloplast.us/coloplast/ostomy-care/brava/belt/brava-ostomy-support-belt/?utm_source=google&utm_medium=cpc&utm_campaign=CP_US_EN_AW_PMax_OC_NA_EcomShop&gclsrc=aw.ds&gad_source=1&gad_campaignid=21598806712&gbraid=0AAAAADvDzV2do2Mvk_VSzxuEDuJ2wrIYQ&gclid=CjwKCAjwoaLWBhAWEiwAnyitu63fq2cQ0_Lr7b2w_EGiuERpBu2ql8iVyRk-O3cLt0LXurvIQYBskhoCJygQAvD_BwE",
+    "viewport": {
+      "width": 900,
+      "height": 900
+    },
+    "device_scale_factor": 2,
+    "output": {
+      "width": 1800,
+      "height": 1800
+    },
+    "fps": 30,
+    "frames": 126,
+    "scroll_css_px": 240,
+    "status": "captured",
+    "capture_date": "2026-10-09T16:25:17.030Z",
+    "method": "Rendered browser viewport frames sampled at 30 fps timeline; 6-frame opening/ending holds",
+    "poster": "coloplast/poster.png",
+    "recording": "coloplast/coloplast_square.mp4",
+    "opening_scroll_css_px": 0,
+    "ending_scroll_css_px": 240,
+    "overlay_actions": [
+      "Dismissed Cookiebot using Do not sell or share my personal information"
+    ]
+  }
+]

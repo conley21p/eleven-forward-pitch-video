@@ -1,0 +1,1004 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="en_US.UTF-8" producer="project" version="7.41.0">
+  <profile colorspace="709" description="HD 1080p 30 fps" width="1920" height="1080" progressive="1" frame_rate_num="30" frame_rate_den="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" />
+  <producer id="black" in="0" out="3850">
+    <property name="mlt_service">color</property>
+    <property name="resource">black</property>
+    <property name="length">3851</property>
+  </producer>
+  <producer id="dialogue" in="0" out="3850">
+    <property name="resource">../04_audio/Founder_Dialogue.wav</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1002</property>
+    <property name="kdenlive:clipname">Founder_Dialogue</property>
+    <property name="set.test_audio">0</property>
+    <property name="set.test_image">1</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="sounds" in="0" out="3850">
+    <property name="resource">../04_audio/Motion_Sounds.wav</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1003</property>
+    <property name="kdenlive:clipname">Motion_Sounds</property>
+    <property name="set.test_audio">0</property>
+    <property name="set.test_image">1</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="founder" in="0" out="3850">
+    <property name="resource">../03_founder/Founder_Gradient_30fps.mkv</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1004</property>
+    <property name="kdenlive:clipname">Founder_Gradient_30fps</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="frost" in="0" out="3850">
+    <property name="resource">../05_graphics/motion/Dark_Surfaces.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1005</property>
+    <property name="kdenlive:clipname">Dark_Surfaces</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_0" in="0" out="74">
+    <property name="resource">../05_graphics/motion/Anatomy_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">75</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1006</property>
+    <property name="kdenlive:clipname">Anatomy_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_1" in="0" out="74">
+    <property name="resource">../05_graphics/motion/Anatomy_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">75</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1007</property>
+    <property name="kdenlive:clipname">Anatomy_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_2" in="0" out="248">
+    <property name="resource">../05_graphics/motion/Race_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">249</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1008</property>
+    <property name="kdenlive:clipname">Race_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_3" in="0" out="248">
+    <property name="resource">../05_graphics/motion/Race_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">249</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1009</property>
+    <property name="kdenlive:clipname">Race_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_4" in="0" out="429">
+    <property name="resource">../05_graphics/motion/Product_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">430</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1010</property>
+    <property name="kdenlive:clipname">Product_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_5" in="0" out="429">
+    <property name="resource">../05_graphics/motion/Product_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">430</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1011</property>
+    <property name="kdenlive:clipname">Product_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_6" in="0" out="344">
+    <property name="resource">../05_graphics/motion/Details_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">345</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1012</property>
+    <property name="kdenlive:clipname">Details_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_7" in="0" out="119">
+    <property name="resource">../05_graphics/motion/Community_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">120</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1013</property>
+    <property name="kdenlive:clipname">Community_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_8" in="0" out="314">
+    <property name="resource">../05_graphics/motion/Market_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">315</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1014</property>
+    <property name="kdenlive:clipname">Market_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_9" in="0" out="299">
+    <property name="resource">../05_graphics/motion/Comparison_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">300</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1015</property>
+    <property name="kdenlive:clipname">Comparison_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_10" in="0" out="119">
+    <property name="resource">../05_graphics/motion/StealthWebsite_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">120</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1016</property>
+    <property name="kdenlive:clipname">StealthWebsite_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_11" in="0" out="218">
+    <property name="resource">../05_graphics/motion/Economics_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">219</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1017</property>
+    <property name="kdenlive:clipname">Economics_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_12" in="0" out="238">
+    <property name="resource">../05_graphics/motion/Giving_Typography.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">239</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1018</property>
+    <property name="kdenlive:clipname">Giving_Typography</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="layer_13" in="0" out="264">
+    <property name="resource">../05_graphics/motion/Funding_Images.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">265</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1019</property>
+    <property name="kdenlive:clipname">Funding_Images</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="banner_open" in="0" out="106">
+    <property name="resource">../05_graphics/01_wordmark.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">107</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1020</property>
+    <property name="kdenlive:clipname">01_wordmark</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+    <filter in="0" out="106">
+      <property name="mlt_service">affine</property>
+      <property name="kdenlive:id">pan_zoom</property>
+      <property name="kdenlive:sync_in_out">1</property>
+      <property name="kdenlive:ix">1</property>
+      <property name="transition.rect">0=0 0 1920 1080 1;1=0 0 1920 1080 1;2=0 0 1920 1080 1;3=0 0 1920 1080 1;4=0 0 1920 1080 1;5=0 0 1920 1080 1;6=0 0 1920 1080 1;7=0 0 1920 1080 1;8=0 0 1920 1080 1;9=0 0 1920 1080 1;10=0 0 1920 1080 1;11=0 0 1920 1080 1;12=0 0 1920 1080 1;13=0 0 1920 1080 1;14=0 0 1920 1080 1;15=0 0 1920 1080 1;16=0 0 1920 1080 1;17=0 0 1920 1080 1;18=0 0 1920 1080 1;19=0 0 1920 1080 1;20=0 0 1920 1080 1;21=0 0 1920 1080 1;22=0 0 1920 1080 1;23=0 0 1920 1080 1;24=0 0 1920 1080 1;25=0 0 1920 1080 1;26=0 0 1920 1080 1;27=0 0 1920 1080 1;28=0 0 1920 1080 1;29=0 0 1920 1080 1;30=0 0 1920 1080 1;31=0 0 1920 1080 1;32=0 0 1920 1080 1;33=0 0 1920 1080 1;34=0 0 1920 1080 1;35=0 0 1920 1080 1;36=0 0 1920 1080 1;37=0 0 1920 1080 1;38=0 0 1920 1080 1;39=0 0 1920 1080 1;40=0 0 1920 1080 1;41=0 0 1920 1080 1;42=0 0 1920 1080 1;43=0 0 1920 1080 1;44=0 0 1920 1080 1;45=0 0 1920 1080 1;46=0 0 1920 1080 1;47=0 0 1920 1080 1;48=0 0 1920 1080 1;49=0 0 1920 1080 1;50=0 0 1920 1080 1;51=0 0 1920 1080 1;52=0 0 1920 1080 1;53=0 0 1920 1080 1;54=0 0 1920 1080 1;55=0 0 1920 1080 1;56=0 0 1920 1080 1;57=0 0 1920 1080 1;58=0 0 1920 1080 1;59=0 0 1920 1080 1;60=0 0 1920 1080 1;61=0 0 1920 1080 1;62=0 0 1920 1080 1;63=0 0 1920 1080 1;64=0 0 1920 1080 1;65=0 0 1920 1080 1;66=0 0 1920 1080 1;67=0 0 1920 1080 1;68=0 0 1920 1080 1;69=0 0 1920 1080 1;70=0 0 1920 1080 1;71=0 0 1920 1080 1;72=0 0 1920 1080 1;73=0 0 1920 1080 1;74=0 0 1920 1080 1;75=0 0 1920 1080 1;76=0 0 1920 1080 1;77=0 0 1920 1080 1;78=0 0 1920 1080 1;79=0 0 1920 1080 1;80=0 0 1920 1080 1;81=0 0 1920 1080 1;82=0 0 1920 1080 1;83=0 0 1920 1080 1;84=-3 0 1920 1080 1;85=-11 0 1920 1080 1;86=-23 0 1920 1080 1;87=-40 0 1920 1080 1;88=-61 0 1920 1080 1;89=-84 0 1920 1080 1;90=-111 0 1920 1080 1;91=-140 0 1920 1080 1;92=-171 0 1920 1080 1;93=-203 0 1920 1080 1;94=-236 0 1920 1080 1;95=-270 0 1920 1080 1;96=-304 0 1920 1080 1;97=-337 0 1920 1080 1;98=-369 0 1920 1080 1;99=-400 0 1920 1080 1;100=-429 0 1920 1080 1;101=-456 0 1920 1080 1;102=-479 0 1920 1080 1;103=-500 0 1920 1080 1;104=-517 0 1920 1080 1;105=-529 0 1920 1080 1;106=-537 0 1920 1080 1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.b_alpha">0</property>
+      <property name="background">color:0x00000000</property>
+    </filter>
+  </producer>
+  <producer id="editable_0" in="0" out="3850">
+    <property name="resource">../05_graphics/png/anatomy_title.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1021</property>
+    <property name="kdenlive:clipname">anatomy_title</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_1" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/Anatomy_Cutout.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1022</property>
+    <property name="kdenlive:clipname">Anatomy_Cutout</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_2" in="0" out="3850">
+    <property name="resource">../05_graphics/png/nine_months.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1023</property>
+    <property name="kdenlive:clipname">nine_months</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_3" in="0" out="3850">
+    <property name="resource">../00_references/powerpoint/race_swim.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1024</property>
+    <property name="kdenlive:clipname">race_swim</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_4" in="0" out="3850">
+    <property name="resource">../00_references/powerpoint/race_finish.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1025</property>
+    <property name="kdenlive:clipname">race_finish</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_5" in="0" out="3850">
+    <property name="resource">../05_graphics/png/product_title.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1026</property>
+    <property name="kdenlive:clipname">product_title</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_6" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/image2.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1027</property>
+    <property name="kdenlive:clipname">image2</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_7" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/image3.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1028</property>
+    <property name="kdenlive:clipname">image3</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_8" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/Belt_Trace_Source.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1029</property>
+    <property name="kdenlive:clipname">Belt_Trace_Source</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_9" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/media2.mp4</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1030</property>
+    <property name="kdenlive:clipname">media2</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_10" in="0" out="3850">
+    <property name="resource">../05_graphics/png/population.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1031</property>
+    <property name="kdenlive:clipname">population</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_11" in="0" out="3850">
+    <property name="resource">../05_graphics/png/audience.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1032</property>
+    <property name="kdenlive:clipname">audience</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_12" in="0" out="3850">
+    <property name="resource">../05_graphics/png/market_inputs.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1033</property>
+    <property name="kdenlive:clipname">market_inputs</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_13" in="0" out="3850">
+    <property name="resource">../05_graphics/png/market_result.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1034</property>
+    <property name="kdenlive:clipname">market_result</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_14" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/image7.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1035</property>
+    <property name="kdenlive:clipname">image7</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_15" in="0" out="3850">
+    <property name="resource">../05_graphics/png/stealth_website.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1036</property>
+    <property name="kdenlive:clipname">stealth_website</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_16" in="0" out="3850">
+    <property name="resource">../05_graphics/png/economics_title.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1037</property>
+    <property name="kdenlive:clipname">economics_title</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_17" in="0" out="3850">
+    <property name="resource">../05_graphics/png/retail.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1038</property>
+    <property name="kdenlive:clipname">retail</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_18" in="0" out="3850">
+    <property name="resource">../05_graphics/png/cogs.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1039</property>
+    <property name="kdenlive:clipname">cogs</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_19" in="0" out="3850">
+    <property name="resource">../05_graphics/png/giving_title.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1040</property>
+    <property name="kdenlive:clipname">giving_title</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_20" in="0" out="3850">
+    <property name="resource">../05_graphics/png/giving_purchase.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1041</property>
+    <property name="kdenlive:clipname">giving_purchase</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_21" in="0" out="3850">
+    <property name="resource">../05_graphics/png/giving_supplies.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1042</property>
+    <property name="kdenlive:clipname">giving_supplies</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_22" in="0" out="3850">
+    <property name="resource">../05_graphics/png/giving_people.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1043</property>
+    <property name="kdenlive:clipname">giving_people</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_23" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/image8.png</property>
+    <property name="mlt_service">qimage</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1044</property>
+    <property name="kdenlive:clipname">image8</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_24" in="0" out="3850">
+    <property name="resource">../03_founder/Original_Camera_Take.mov</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1045</property>
+    <property name="kdenlive:clipname">Original_Camera_Take</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <producer id="editable_25" in="0" out="3850">
+    <property name="resource">../00_references/final_powerpoint/Community_Dark_Original_Motion.mkv</property>
+    <property name="mlt_service">avformat</property>
+    <property name="length">3851</property>
+    <property name="eof">pause</property>
+    <property name="kdenlive:id">1046</property>
+    <property name="kdenlive:clipname">Community_Dark_Original_Motion</property>
+    <property name="set.test_audio">1</property>
+    <property name="set.test_image">0</property>
+    <property name="ttl">1</property>
+  </producer>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+    <property name="kdenlive:docproperties.version">1.1</property>
+    <property name="kdenlive:docproperties.projectid">20261010</property>
+    <property name="kdenlive:docproperties.groups">[]</property>
+    <property name="kdenlive:docproperties.activetimeline">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:docproperties.opensequences">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:docproperties.profile">atsc_1080p_30</property>
+    <property name="kdenlive:folder.-1.2">Sequences</property>
+    <property name="kdenlive:sequenceFolder">2</property>
+    <property name="kdenlive:docproperties.uuid">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:docproperties.documentid">202610101830</property>
+    <property name="kdenlive:docproperties.audioChannels">1</property>
+    <property name="kdenlive:docproperties.kdenliveversion">26.08.1</property>
+    <property name="kdenlive:docproperties.patchversion">1</property>
+    <entry producer="{e9ad1b08-54f1-5a16-a235-f3397e068e3e}" in="0" out="3850" />
+    <entry producer="dialogue" />
+    <entry producer="sounds" />
+    <entry producer="founder" />
+    <entry producer="frost" />
+    <entry producer="layer_0" />
+    <entry producer="layer_1" />
+    <entry producer="layer_2" />
+    <entry producer="layer_3" />
+    <entry producer="layer_4" />
+    <entry producer="layer_5" />
+    <entry producer="layer_6" />
+    <entry producer="layer_7" />
+    <entry producer="layer_8" />
+    <entry producer="layer_9" />
+    <entry producer="layer_10" />
+    <entry producer="layer_11" />
+    <entry producer="layer_12" />
+    <entry producer="layer_13" />
+    <entry producer="banner_open" />
+    <entry producer="editable_0" />
+    <entry producer="editable_1" />
+    <entry producer="editable_2" />
+    <entry producer="editable_3" />
+    <entry producer="editable_4" />
+    <entry producer="editable_5" />
+    <entry producer="editable_6" />
+    <entry producer="editable_7" />
+    <entry producer="editable_8" />
+    <entry producer="editable_9" />
+    <entry producer="editable_10" />
+    <entry producer="editable_11" />
+    <entry producer="editable_12" />
+    <entry producer="editable_13" />
+    <entry producer="editable_14" />
+    <entry producer="editable_15" />
+    <entry producer="editable_16" />
+    <entry producer="editable_17" />
+    <entry producer="editable_18" />
+    <entry producer="editable_19" />
+    <entry producer="editable_20" />
+    <entry producer="editable_21" />
+    <entry producer="editable_22" />
+    <entry producer="editable_23" />
+    <entry producer="editable_24" />
+    <entry producer="editable_25" />
+  </playlist>
+  <playlist id="track_0_a">
+    <entry producer="dialogue" in="0" out="3850" />
+  </playlist>
+  <playlist id="track_0_b" />
+  <tractor id="track_0" in="0" out="3850">
+    <property name="kdenlive:track_name">A1 · Original dialogue · unchanged</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:audio_track">1</property>
+    <track producer="track_0_a" hide="video" />
+    <track producer="track_0_b" hide="video" />
+  </tractor>
+  <playlist id="track_1_a">
+    <entry producer="sounds" in="0" out="3850" />
+  </playlist>
+  <playlist id="track_1_b" />
+  <tractor id="track_1" in="0" out="3850">
+    <property name="kdenlive:track_name">A2 · Quiet motion sounds · no music</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <property name="kdenlive:audio_track">1</property>
+    <track producer="track_1_a" hide="video" />
+    <track producer="track_1_b" hide="video" />
+  </tractor>
+  <playlist id="track_2_a">
+    <entry producer="founder" in="0" out="3850" />
+  </playlist>
+  <playlist id="track_2_b" />
+  <tractor id="track_2" in="0" out="3850">
+    <property name="kdenlive:track_name">V1 · Continuous original camera take</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_2_a" hide="audio" />
+    <track producer="track_2_b" hide="audio" />
+  </tractor>
+  <playlist id="track_3_a">
+    <entry producer="frost" in="0" out="3850" />
+  </playlist>
+  <playlist id="track_3_b" />
+  <tractor id="track_3" in="0" out="3850">
+    <property name="kdenlive:track_name">V2 · Opaque dark-green surfaces</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_3_a" hide="audio" />
+    <track producer="track_3_b" hide="audio" />
+  </tractor>
+  <playlist id="track_4_a">
+    <blank length="120" />
+    <entry producer="layer_0" in="0" out="74" />
+  </playlist>
+  <playlist id="track_4_b" />
+  <tractor id="track_4" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Anatomy Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_4_a" hide="audio" />
+    <track producer="track_4_b" hide="audio" />
+  </tractor>
+  <playlist id="track_5_a">
+    <blank length="120" />
+    <entry producer="layer_1" in="0" out="74" />
+  </playlist>
+  <playlist id="track_5_b" />
+  <tractor id="track_5" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Anatomy Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_5_a" hide="audio" />
+    <track producer="track_5_b" hide="audio" />
+  </tractor>
+  <playlist id="track_6_a">
+    <blank length="195" />
+    <entry producer="layer_2" in="0" out="248" />
+  </playlist>
+  <playlist id="track_6_b" />
+  <tractor id="track_6" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Race Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_6_a" hide="audio" />
+    <track producer="track_6_b" hide="audio" />
+  </tractor>
+  <playlist id="track_7_a">
+    <blank length="195" />
+    <entry producer="layer_3" in="0" out="248" />
+  </playlist>
+  <playlist id="track_7_b" />
+  <tractor id="track_7" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Race Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_7_a" hide="audio" />
+    <track producer="track_7_b" hide="audio" />
+  </tractor>
+  <playlist id="track_8_a">
+    <blank length="444" />
+    <entry producer="layer_4" in="0" out="429" />
+  </playlist>
+  <playlist id="track_8_b" />
+  <tractor id="track_8" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Product Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_8_a" hide="audio" />
+    <track producer="track_8_b" hide="audio" />
+  </tractor>
+  <playlist id="track_9_a">
+    <blank length="444" />
+    <entry producer="layer_5" in="0" out="429" />
+  </playlist>
+  <playlist id="track_9_b" />
+  <tractor id="track_9" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Product Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_9_a" hide="audio" />
+    <track producer="track_9_b" hide="audio" />
+  </tractor>
+  <playlist id="track_10_a">
+    <blank length="960" />
+    <entry producer="layer_6" in="0" out="344" />
+  </playlist>
+  <playlist id="track_10_b" />
+  <tractor id="track_10" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Details Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_10_a" hide="audio" />
+    <track producer="track_10_b" hide="audio" />
+  </tractor>
+  <playlist id="track_11_a">
+    <blank length="1335" />
+    <entry producer="layer_7" in="0" out="119" />
+  </playlist>
+  <playlist id="track_11_b" />
+  <tractor id="track_11" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Community Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_11_a" hide="audio" />
+    <track producer="track_11_b" hide="audio" />
+  </tractor>
+  <playlist id="track_12_a">
+    <blank length="1455" />
+    <entry producer="layer_8" in="0" out="314" />
+  </playlist>
+  <playlist id="track_12_b" />
+  <tractor id="track_12" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Market Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_12_a" hide="audio" />
+    <track producer="track_12_b" hide="audio" />
+  </tractor>
+  <playlist id="track_13_a">
+    <blank length="2040" />
+    <entry producer="layer_9" in="0" out="299" />
+  </playlist>
+  <playlist id="track_13_b" />
+  <tractor id="track_13" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Comparison Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_13_a" hide="audio" />
+    <track producer="track_13_b" hide="audio" />
+  </tractor>
+  <playlist id="track_14_a">
+    <blank length="2370" />
+    <entry producer="layer_10" in="0" out="119" />
+  </playlist>
+  <playlist id="track_14_b" />
+  <tractor id="track_14" in="0" out="3850">
+    <property name="kdenlive:track_name">V · StealthWebsite Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_14_a" hide="audio" />
+    <track producer="track_14_b" hide="audio" />
+  </tractor>
+  <playlist id="track_15_a">
+    <blank length="2517" />
+    <entry producer="layer_11" in="0" out="218" />
+  </playlist>
+  <playlist id="track_15_b" />
+  <tractor id="track_15" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Economics Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_15_a" hide="audio" />
+    <track producer="track_15_b" hide="audio" />
+  </tractor>
+  <playlist id="track_16_a">
+    <blank length="2736" />
+    <entry producer="layer_12" in="0" out="238" />
+  </playlist>
+  <playlist id="track_16_b" />
+  <tractor id="track_16" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Giving Typography</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_16_a" hide="audio" />
+    <track producer="track_16_b" hide="audio" />
+  </tractor>
+  <playlist id="track_17_a">
+    <blank length="2975" />
+    <entry producer="layer_13" in="0" out="264" />
+  </playlist>
+  <playlist id="track_17_b" />
+  <tractor id="track_17" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Funding Images</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_17_a" hide="audio" />
+    <track producer="track_17_b" hide="audio" />
+  </tractor>
+  <playlist id="track_18_a">
+    <entry producer="banner_open" in="0" out="106" />
+  </playlist>
+  <playlist id="track_18_b" />
+  <tractor id="track_18" in="0" out="3850">
+    <property name="kdenlive:track_name">V · Opening founder banner</property>
+    <property name="kdenlive:trackheight">60</property>
+    <property name="kdenlive:timeline_active">1</property>
+    <property name="kdenlive:collapsed">0</property>
+    <track producer="track_18_a" hide="audio" />
+    <track producer="track_18_b" hide="audio" />
+  </tractor>
+  <tractor id="{e9ad1b08-54f1-5a16-a235-f3397e068e3e}" in="0" out="3850">
+    <property name="kdenlive:sequenceuuid">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:sequenceproperties.name">Eleven Forward · Final graphics redesign</property>
+    <property name="kdenlive:sequenceproperties.tracks">19</property>
+    <property name="kdenlive:sequenceproperties.duration">3851</property>
+    <property name="kdenlive:uuid">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:clipname">MASTER KINETIC SPEECH</property>
+    <property name="kdenlive:sequenceproperties.hasAudio">1</property>
+    <property name="kdenlive:sequenceproperties.hasVideo">1</property>
+    <property name="kdenlive:sequenceproperties.activeTrack">3</property>
+    <property name="kdenlive:sequenceproperties.tracksCount">19</property>
+    <property name="kdenlive:sequenceproperties.documentuuid">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:control_uuid">{e9ad1b08-54f1-5a16-a235-f3397e068e3e}</property>
+    <property name="kdenlive:duration">3851</property>
+    <property name="kdenlive:maxduration">3851</property>
+    <property name="kdenlive:producer_type">17</property>
+    <property name="kdenlive:id">900</property>
+    <property name="kdenlive:folderid">2</property>
+    <property name="kdenlive:sequenceproperties.audioTarget">0</property>
+    <property name="kdenlive:sequenceproperties.videoTarget">2</property>
+    <property name="kdenlive:sequenceproperties.position">0</property>
+    <property name="kdenlive:sequenceproperties.zoom">8</property>
+    <property name="kdenlive:sequenceproperties.zonein">0</property>
+    <property name="kdenlive:sequenceproperties.zoneout">3851</property>
+    <property name="kdenlive:sequenceproperties.groups">[]</property>
+    <property name="kdenlive:sequenceproperties.guides">[{"pos": 120, "comment": "Anatomy", "type": 0}, {"pos": 195, "comment": "Race", "type": 0}, {"pos": 444, "comment": "Product", "type": 0}, {"pos": 960, "comment": "Details", "type": 0}, {"pos": 1335, "comment": "Community", "type": 0}, {"pos": 1455, "comment": "Market", "type": 0}, {"pos": 2040, "comment": "Comparison", "type": 0}, {"pos": 2370, "comment": "StealthWebsite", "type": 0}, {"pos": 2517, "comment": "Economics", "type": 0}, {"pos": 2736, "comment": "Giving", "type": 0}, {"pos": 2975, "comment": "Funding", "type": 0}, {"pos": 120, "comment": "anatomy_title", "type": 1}, {"pos": 195, "comment": "nine_months", "type": 1}, {"pos": 444, "comment": "product_title", "type": 1}, {"pos": 1455, "comment": "population", "type": 1}, {"pos": 1521, "comment": "audience", "type": 1}, {"pos": 1625, "comment": "market_inputs", "type": 1}, {"pos": 1637, "comment": "market_result", "type": 1}, {"pos": 2517, "comment": "economics_title", "type": 1}, {"pos": 2570, "comment": "retail", "type": 1}, {"pos": 2640, "comment": "cogs", "type": 1}, {"pos": 2736, "comment": "giving_title", "type": 1}, {"pos": 2736, "comment": "giving_purchase", "type": 1}, {"pos": 2794, "comment": "giving_supplies", "type": 1}, {"pos": 2871, "comment": "giving_people", "type": 1}]</property>
+    <track producer="black" />
+    <track producer="track_0" hide="video" />
+    <track producer="track_1" hide="video" />
+    <track producer="track_2" hide="audio" />
+    <track producer="track_3" hide="audio" />
+    <track producer="track_4" hide="audio" />
+    <track producer="track_5" hide="audio" />
+    <track producer="track_6" hide="audio" />
+    <track producer="track_7" hide="audio" />
+    <track producer="track_8" hide="audio" />
+    <track producer="track_9" hide="audio" />
+    <track producer="track_10" hide="audio" />
+    <track producer="track_11" hide="audio" />
+    <track producer="track_12" hide="audio" />
+    <track producer="track_13" hide="audio" />
+    <track producer="track_14" hide="audio" />
+    <track producer="track_15" hide="audio" />
+    <track producer="track_16" hide="audio" />
+    <track producer="track_17" hide="audio" />
+    <track producer="track_18" hide="audio" />
+    <transition in="0" out="3850">
+      <property name="mlt_service">mix</property>
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">mix</property>
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">6</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">7</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">8</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">9</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">10</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">11</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">12</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">13</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">14</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">15</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">16</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">17</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">18</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+    <transition in="0" out="3850">
+      <property name="mlt_service">qtblend</property>
+      <property name="a_track">0</property>
+      <property name="b_track">19</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+    </transition>
+  </tractor>
+  <tractor id="project" in="0" out="3850">
+    <track producer="{e9ad1b08-54f1-5a16-a235-f3397e068e3e}" />
+  </tractor>
+</mlt>
