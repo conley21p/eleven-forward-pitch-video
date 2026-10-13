@@ -23,7 +23,7 @@ The final delivery retains all spoken content, trims trailing silence, and plays
 
 All binary media is tracked with Git LFS. Two oversized files are stored as ≤1 GiB LFS parts under `media_parts/`; the restore command verifies hashes and reconstructs their original paths. The original full files remain available in this local checkout but are ignored by Git to avoid duplicate storage. The complete project is approximately 11 GiB; allow 30–40 GiB for a clone including LFS cache, restored media, and a rebuild. Check hosting LFS storage/bandwidth allowances before uploading. Anyone with repository access also receives the founder footage and supplied reference media.
 
-After changing either oversized file, run `python3 scripts/pack_media.py` before committing to refresh its parts and hashes. Do not manually edit part files.
+After changing either oversized file, run `python3 scripts/pack_media.py` before committing to refresh its parts and hashes. New oversized media is packed into 128 MiB parts for faster parallel upload. Do not manually edit part files.
 
 ## Build dependencies
 

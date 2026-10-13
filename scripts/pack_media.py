@@ -15,8 +15,8 @@ for old in json.loads(manifest.read_text()):
                 data=first
                 while data:
                     output.write(data);digest.update(data);total.update(data);size+=len(data)
-                    if size>=1024**3:break
-                    data=f.read(min(8*1024**2,1024**3-size))
+                    if size>=128*1024**2:break
+                    data=f.read(min(8*1024**2,128*1024**2-size))
             parts.append({'path':part.relative_to(R).as_posix(),'bytes':size,'sha256':digest.hexdigest()});index+=1
     for p in folder.glob('*.bin'):
         if p.name not in {Path(x['path']).name for x in parts}:p.unlink()
