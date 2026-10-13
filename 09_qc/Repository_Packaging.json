@@ -9,5 +9,11 @@
   "remote": "https://github.com/conley21p/eleven-forward-pitch-video",
   "full_video_rerender": "not performed; packaged current verified exports unchanged",
   "date": "2026-10-12",
-  "initial_publication_repack": "Final large LFS part split into 128 MiB pieces; SHA-256 and byte count identical"
+  "initial_publication_repack": "Final large LFS part split into 128 MiB pieces; SHA-256 and byte count identical",
+  "remote_visibility": "private",
+  "remote_lfs_objects_verified": 138,
+  "remote_lfs_objects_total": 138,
+  "remote_media_GiB": 11.2,
+  "publication_verification_date": "2026-10-13",
+  "upload_workaround": "Last seven pieces uploaded with HTTP Expect: 100-continue and confirmed through required Git LFS verify actions."
 }
